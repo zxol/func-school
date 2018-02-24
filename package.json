@@ -1,0 +1,33 @@
+{
+  "name": "func-school",
+  "version": "0.0.1",
+  "description": "experimenting with func programming",
+  "main": "src/script.js",
+  "scripts": {
+    "start": "node -r ./src/register.js src/script"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zxol/node-babel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zxol/node-babel/issues"
+  },
+  "homepage": "https://github.com/zxol/node-babel#readme",
+  "dependencies": {
+    "babel-preset-env": "*",
+    "babel-register": "*",
+    "babel-plugin-transform-export-extensions": "*",
+    "babel-plugin-transform-object-rest-spread": "*",
+    "lodash": "*",
+    "ramda": "*",
+    "1-liners": "*",
+    "most": "*",
+    "async": "*",
+    "immutable-js": "*",
+    "icepick": "*",
+    "collectable": "*"
+  }
+}
