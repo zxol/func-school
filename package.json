@@ -17,17 +17,19 @@
   },
   "homepage": "https://github.com/zxol/node-babel#readme",
   "dependencies": {
-    "babel-preset-env": "*",
-    "babel-register": "*",
+    "1-liners": "*",
+    "async": "*",
     "babel-plugin-transform-export-extensions": "*",
     "babel-plugin-transform-object-rest-spread": "*",
-    "lodash": "*",
-    "ramda": "*",
-    "1-liners": "*",
-    "most": "*",
-    "async": "*",
-    "immutable-js": "*",
+    "babel-preset-env": "*",
+    "babel-register": "*",
+    "collectable": "*",
+    "fluture": "^8.0.2",
     "icepick": "*",
-    "collectable": "*"
+    "immutable-js": "*",
+    "lodash": "*",
+    "most": "*",
+    "ramda": "*",
+    "sanctuary": "^0.14.1"
   }
 }
