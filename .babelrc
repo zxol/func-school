@@ -10,7 +10,10 @@
         ]
     ],
     "plugins": [
-        "transform-object-rest-spread",
-        "transform-export-extensions"
+        "@babel/plugin-syntax-export-default-from",
+        "@babel/plugin-proposal-object-rest-spread",
+        "@babel/plugin-proposal-pipeline-operator",
+        "@babel/plugin-proposal-class-properties",
+        "@babel/plugin-proposal-optional-chaining"
     ]
 }
